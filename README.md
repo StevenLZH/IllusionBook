@@ -5,7 +5,7 @@
 
 [![License OFL](https://img.shields.io/badge/license-OFL--1.1-orange)](https://openfontlicense.org)
 [![Realeases](https://img.shields.io/badge/releases-v1.0-blue)](https://github.com/StevenLZH/IllusionBook/releases/)
-[![Itch.io](https://img.shields.io/badge/itch.io-illusion--book-FF2449?logo=itch.io&logoColor=white)](itch.io)
+[![Itch.io](https://img.shields.io/badge/itch.io-illusion--book-FF2449?logo=itch.io&logoColor=white)]((https://steven-liu.itch.io/illusion-book))
 
 > [!WARNING]
 > 
