@@ -1,50 +1,48 @@
-﻿## Acknowledgements
+﻿# 幻象像素书体 Illusion Book
+> 一款尝试在像素世界中寻铅字时代的温润的字体。
 
-Special thanks to Roy, Heinrich and 摇曳 for their assistance with the rendering effect of this typeface, especially Roy for his help with technical support. Also, thanks to HanshuYuri for his valuable advice, his pixel fonts are also excellent. Without their support, this typeface might not have achieved its current effect.
+> [!WARNING]
+> 
+> 由于目前仍在学习字体技术，所以该字体可能或多或少的会包含一些错误。
+> 
+> 如果在使用过程中发现了错误，请及时在 Issues 中反馈。
 
-Thanks to my family for supporting my hobby. Their open-minded attitude was the foundation of my path.
+> [!IMPORTANT]
+> 
+> 这是一个开源项目，字体可以免费商用。
+> 
+> 如果这个项目对您有帮助，请考虑在 [爱发电](#) 或 [Patreon](#) 上来支持开发工作。
 
-Thanks to my fans on the Bilibili for their acceptance, as well as the technology and experience shared by the people of the QQ group chat "像素字体工房".
+## 预览 Preview
+请参见 [itch.io]()，[Behance](#) 或 [字体主页](#)。
 
-## License
+## 涵盖的字符集 Covered Character Sets
+- 基本拉丁语
+- 拉丁语增补
+- 拉丁语扩展-A
+- 希腊语和科普特语
+- 西里尔字母
+- 西里尔字母补充；
 
-This typeface is under the SIL Open Font License. For more details please visit:  [https://openfontlicense.org](https://openfontlicense.org/).
+以及零星的
 
-## Supported Features
+- 拉丁语扩展-B
+- 拉丁语扩充增补
+- 广义标点
+- 货币符号
+- 类似字母的符号
+- 数学运算符。
 
-### Charset
-
-Covered Unicode
-
--   Basic Latin,
--   Latin Supplement,
--   Latin-Extended A,
--   Greek and Coptic,
--   Cyrillic,
--   Cyrillic Supplement;
-
-And bit of
-
--   Latin-Extended B,
--   Latin Extended Additional,
--   General Punctuation,
--   Currency Symbols,
--   Letterlike Symbols
--   Mathematical Symbols.
-
-### OpenType Features
-
--   Standard Ligatures 'liga'
--   Discretionary Ligatures 'dlig'
--   Historic Ligatures 'hlig'
--   Small Caps 'smcp'
--   Old-Style Figures 'onum'
--   Slashed Zero 'zero' and so on.
-
-OpenType feature file and FontForge project had been open sourced on GitHub. For more examples, please visit our website.
-
-## Usage
-
-The UPM of this typeface is 1200, so the font should be scaled an integer multiple of a size of 12px for the best result.
-
-For better display result, the OpenType kern for this typeface does not take an integer multiple of the cell size (default is 100). This may cause the font wrong render results under some circumstances. Please turn off any anti-aliasing settings or filtering modes, and set the tracking to 0 when it’s possible.
+## OpenType特性
+- 标准连字（liga）
+- 自由连字（dlig）
+- 历史连字（hlig）
+- 斜线零（zero）
+- 小型大写（smcp）
+- 大写转小型大写（c2sc）
+- 旧式数字（onum）
+- 历史形式（hist）
+- 上下文替换（calt）
+- 词尾样式（fina）
+- 花饰字（swsh）
+- 字偶距（kern）
