@@ -43,18 +43,18 @@
 - 数学运算符。
 
 ## OpenType特性
-- 标准连字（liga）
-- 自由连字（dlig）
-- 历史连字（hlig）
-- 斜线零（zero）
-- 小型大写（smcp）
-- 大写转小型大写（c2sc）
-- 旧式数字（onum）
-- 历史形式（hist）
-- 上下文替换（calt）
-- 词尾样式（fina）
-- 花饰字（swsh）
-- 字偶距（kern）
+- 标准连字`liga`
+- 自由连字`dlig`
+- 历史连字`hlig`
+- 斜线零`zero`
+- 小型大写`smcp`
+- 大写转小型大写`c2sc`
+- 旧式数字`onum`
+- 历史形式`hist`
+- 上下文替换`calt`
+- 词尾样式`fina`
+- 花饰字`swsh`
+- 字偶距`kern`
 
 ## 尺寸 Size
 该字体基于 12px 的大小设计。
