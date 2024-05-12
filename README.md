@@ -3,7 +3,7 @@
 
 [![License OFL](https://img.shields.io/badge/license-OFL--1.1-orange)](https://openfontlicense.org)
 [![Realeases](https://img.shields.io/badge/releases-v1.0-blue)](https://github.com/StevenLZH/IllusionBook/releases/)
-
+[![Itch.io](https://img.shields.io/badge/itch.io-illusion--book-FF2449?logo=itch.io&logoColor=white)](itch.io)
 
 > [!WARNING]
 > 
@@ -19,6 +19,9 @@
 
 ## 预览 Preview
 请参见 [itch.io](#)，[Behance](#) 或该字体的 [主页](#)。
+
+## 注意事项 Notice
+由于本字体在字距调整时并未完全采用整数倍单元格大小的数值，这可能导致在某些情况下字体不能正确地渲染。在允许的情况下，请关闭任何的抗锯齿设置以及过滤模式，并将字距微调和追踪皆设为`0`。
 
 ## 涵盖的字符集 Covered Character Sets
 - 基本拉丁语
