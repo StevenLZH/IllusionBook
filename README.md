@@ -1,4 +1,4 @@
-![banner](docs/Cover.jpg)
+![banner](docs/Cover(640x320).png)
  
  # 幻象像素书体 Illusion Book
 > 一款尝试在像素世界中寻铅字时代的温润的字体。
