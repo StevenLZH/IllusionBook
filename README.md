@@ -1,4 +1,6 @@
-﻿# 幻象像素书体 Illusion Book
+![banner](docs/Cover.jpg)
+ 
+ # 幻象像素书体 Illusion Book
 > 一款尝试在像素世界中寻铅字时代的温润的字体。
 
 [![License OFL](https://img.shields.io/badge/license-OFL--1.1-orange)](https://openfontlicense.org)
