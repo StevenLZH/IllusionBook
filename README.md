@@ -5,7 +5,7 @@
 
 [![License OFL](https://img.shields.io/badge/license-OFL--1.1-orange)](https://openfontlicense.org)
 [![Realeases](https://img.shields.io/badge/releases-v1.0-blue)](https://github.com/StevenLZH/IllusionBook/releases/)
-[![Itch.io](https://img.shields.io/badge/itch.io-illusion--book-FF2449?logo=itch.io&logoColor=white)]((https://steven-liu.itch.io/illusion-book))
+[![Itch.io](https://img.shields.io/badge/itch.io-illusion--book-FF2449?logo=itch.io&logoColor=white)](https://steven-liu.itch.io/illusion-book)
 
 > [!WARNING]
 > 
@@ -42,7 +42,7 @@
 - 类似字母的符号
 - 数学运算符。
 
-## OpenType特性
+## OpenType 特性 OpenType Features
 - 标准连字`liga`
 - 自由连字`dlig`
 - 历史连字`hlig`
@@ -65,3 +65,8 @@
 
 ## 授权许可 License
 本字体采用的是 [SIL 开源字体协议](https://openfontlicense.org/)。
+
+## 程序依赖 Program Dependencies
+- [FontForge](https://github.com/fontforge/fontforge)
+- [AFDKO](https://github.com/adobe-type-tools/afdko)
+- [Aseprite](https://github.com/aseprite/aseprite)
