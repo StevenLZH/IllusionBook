@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1706971776
-ModificationTime: 1716009110
+ModificationTime: 1716363760
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -56,8 +56,8 @@ Lookup: 4 0 0 "'hlig' Historic Ligatures lookup 7" { "'hlig' Historic Ligatures 
 Lookup: 4 0 0 "'dlig' Discretionary Ligatures lookup 8" { "'dlig' Discretionary Ligatures lookup 8 subtable"  } ['dlig' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'onum' Oldstyle Figures lookup 9" { "'onum' Oldstyle Figures lookup 9 subtable" ("oldstyle") } ['onum' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'hist' Historical Forms lookup 10" { "'hist' Historical Forms lookup 10 subtable"  } ['hist' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 3 0 0 "'aalt' Access All Alternates lookup 11" { "'aalt' Access All Alternates lookup 11 subtable"  } ['aalt' ('cyrl' <'dflt' > 'grek' <'dflt' > ) ]
-Lookup: 3 0 0 "'aalt' Access All Alternates in Latin lookup 12" { "'aalt' Access All Alternates lookup 12 subtable"  } ['aalt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 3 0 0 "'aalt' Access All Alternates in Latin lookup 11" { "'aalt' Access All Alternates lookup 11 subtable"  } ['aalt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'swsh' Swash lookup 12" { "'swsh' Swash lookup 12-1" ("swash") } ['swsh' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'zero' Slashed Zero lookup 13" { "'zero' Slashed Zero lookup 13 subtable"  } ['zero' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 0" { "'kern' Horizontal Kerning lookup 0 kerning class 0" [180,0,0] "'kern' Horizontal Kerning lookup 0 kerning class 1" [180,0,0] "'kern' Horizontal Kerning lookup 0 kerning class 2"  } ['kern' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
@@ -311,7 +311,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 275 25 10
+WinInfo: 550 25 10
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 218453 109226 72817 524288 1048576 72817 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -362,7 +362,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" a.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" a.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" a.sc
 EndChar
 
@@ -407,7 +406,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" b.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" b.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" b.sc
 EndChar
 
@@ -453,7 +451,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" c.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" c.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" c.sc
 EndChar
 
@@ -495,7 +492,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" d.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" d.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" d.sc
 EndChar
 
@@ -535,7 +531,6 @@ SplineSet
 EndSplineSet
 Validated: 1
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" e.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" e.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" e.sc
 EndChar
 
@@ -573,7 +568,6 @@ SplineSet
 EndSplineSet
 Validated: 1
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" f.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" f.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" f.sc
 EndChar
 
@@ -625,7 +619,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" g.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" g.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" g.sc
 Comment: "G+doRnAFQOTgB7FE4OXyd+v3aEj95jpVkElwCJgVGNWQR0Bk4ATgv/DFQMZfZnAFQOTgB7FHaEiGx+v1coa2RbvV6mTgtmPl+XWSpZJwAA"
 EndChar
@@ -672,7 +665,6 @@ SplineSet
 EndSplineSet
 Validated: 1
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" h.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" h.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" h.sc
 EndChar
 
@@ -702,7 +694,6 @@ SplineSet
 EndSplineSet
 Validated: 1
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" i.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" i.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" i.sc
 EndChar
 
@@ -734,8 +725,7 @@ SplineSet
  100 -100 l 1x70
 EndSplineSet
 Validated: 5
-AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" j.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" j.alt j.sc
+AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" j.alt j.sc
 Substitution2: "Single Substitution lookup 0 subtable" j.alt
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" j.sc
 EndChar
@@ -791,7 +781,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" k.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" k.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" k.sc
 EndChar
 
@@ -823,7 +812,6 @@ SplineSet
 EndSplineSet
 Validated: 1
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" l.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" l.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" l.sc
 EndChar
 
@@ -877,7 +865,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" m.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" m.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" m.sc
 EndChar
 
@@ -925,7 +912,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" n.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" n.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" n.sc
 EndChar
 
@@ -977,7 +963,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" o.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" o.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" o.sc
 EndChar
 
@@ -1016,7 +1001,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" p.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" p.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" p.sc
 EndChar
 
@@ -1073,8 +1057,8 @@ SplineSet
  200 200 l 1x19
  200 100 l 1x21
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" q.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" q.sc
+Substitution2: "'swsh' Swash lookup 12-1" Q.swash
+AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" q.sc Q.swash
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" q.sc
 EndChar
 
@@ -1121,7 +1105,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" r.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" r.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" r.sc
 EndChar
 
@@ -1177,7 +1160,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" s.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" s.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" s.sc
 EndChar
 
@@ -1212,7 +1194,6 @@ SplineSet
 EndSplineSet
 Validated: 1
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" t.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" t.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" t.sc
 EndChar
 
@@ -1251,7 +1232,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" u.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" u.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" u.sc
 EndChar
 
@@ -1298,7 +1278,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" v.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" v.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" v.sc
 EndChar
 
@@ -1356,7 +1335,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" w.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" w.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" w.sc
 EndChar
 
@@ -1427,7 +1405,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" x.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" x.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" x.sc
 EndChar
 
@@ -1478,7 +1455,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" y.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" y.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" y.sc
 EndChar
 
@@ -1535,7 +1511,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" z.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" z.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" z.sc
 EndChar
 
@@ -1604,7 +1579,6 @@ SplineSet
 EndSplineSet
 Validated: 1
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" exclam.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" exclam.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" exclam.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" exclam.sc
 EndChar
@@ -1811,7 +1785,6 @@ SplineSet
  125 500 l 1x14
 EndSplineSet
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" a.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" a.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" a.sc
 EndChar
 
@@ -1882,7 +1855,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" b.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" b.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" b.sc
 EndChar
 
@@ -1921,7 +1893,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" c.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" c.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" c.sc
 EndChar
 
@@ -1963,7 +1934,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" d.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" d.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" d.sc
 EndChar
 
@@ -2003,7 +1973,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" e.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" e.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" e.sc
 EndChar
 
@@ -2044,7 +2013,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" f.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" f.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" f.sc
 EndChar
 
@@ -2102,7 +2070,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" g.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" g.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" g.sc
 EndChar
 
@@ -2143,7 +2110,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" h.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" h.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" h.sc
 EndChar
 
@@ -2176,7 +2142,6 @@ SplineSet
 EndSplineSet
 Validated: 1
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" i.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" i.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" i.sc
 EndChar
 
@@ -2212,7 +2177,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" j.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" j.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" j.sc
 EndChar
 
@@ -2254,7 +2218,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" k.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" k.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" k.sc
 EndChar
 
@@ -2282,7 +2245,6 @@ SplineSet
 EndSplineSet
 Validated: 1
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" l.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" l.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" l.sc
 EndChar
 
@@ -2336,7 +2298,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" m.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" m.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" m.sc
 EndChar
 
@@ -2377,7 +2338,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" n.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" n.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" n.sc
 EndChar
 
@@ -2412,7 +2372,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" o.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" o.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" o.sc
 EndChar
 
@@ -2455,7 +2414,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" p.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" p.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" p.sc
 EndChar
 
@@ -2497,8 +2455,7 @@ SplineSet
  200 500 l 1xe8
 EndSplineSet
 Validated: 5
-AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" q.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" q.sc
+AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" q.sc q.scswash
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" q.sc
 EndChar
 
@@ -2536,7 +2493,6 @@ SplineSet
  300 500 l 1xc8
 EndSplineSet
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" r.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" r.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" r.sc
 EndChar
 
@@ -2582,7 +2538,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" longs s.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" longs s.sc
 Substitution2: "'hist' Historical Forms lookup 10 subtable" longs
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" s.sc
 EndChar
@@ -2620,7 +2575,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" t.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" t.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" t.sc
 EndChar
 
@@ -2662,7 +2616,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" u.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" u.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" u.sc
 EndChar
 
@@ -2700,7 +2653,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" v.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" v.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" v.sc
 EndChar
 
@@ -2748,7 +2700,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" w.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" w.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" w.sc
 EndChar
 
@@ -2794,7 +2745,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" x.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" x.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" x.sc
 EndChar
 
@@ -2847,7 +2797,6 @@ SplineSet
  400 300 l 5
 EndSplineSet
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" y.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" y.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" y.sc
 EndChar
 
@@ -2891,7 +2840,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" z.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" z.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" z.sc
 EndChar
 
@@ -3318,7 +3266,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ampersand.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ampersand.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" ampersand.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" ampersand.sc
 EndChar
@@ -3457,8 +3404,7 @@ SplineSet
  400 100 l 1
 EndSplineSet
 Validated: 5
-AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" zero.slash
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" zero.oldstyle zero.slash
+AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" zero.oldstyle zero.slash
 Substitution2: "'onum' Oldstyle Figures lookup 9 subtable" zero.oldstyle
 Substitution2: "'zero' Slashed Zero lookup 13 subtable" zero.slash
 EndChar
@@ -3488,7 +3434,7 @@ SplineSet
  200 100 l 1xe8
 EndSplineSet
 Validated: 1
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" one.oldstyle
+AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" one.oldstyle
 Substitution2: "'onum' Oldstyle Figures lookup 9 subtable" one.oldstyle
 EndChar
 
@@ -3538,7 +3484,7 @@ SplineSet
  400 200 l 1x8088
 EndSplineSet
 Validated: 5
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" two.oldstyle
+AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" two.oldstyle
 Substitution2: "'onum' Oldstyle Figures lookup 9 subtable" two.oldstyle
 EndChar
 
@@ -3582,7 +3528,7 @@ SplineSet
  0 800 l 1x0a40
 EndSplineSet
 Validated: 5
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" three.oldstyle
+AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" three.oldstyle
 Substitution2: "'onum' Oldstyle Figures lookup 9 subtable" three.oldstyle
 EndChar
 
@@ -3626,7 +3572,7 @@ SplineSet
  100 400 l 1xc4
 EndSplineSet
 Validated: 5
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" four.oldstyle
+AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" four.oldstyle
 Substitution2: "'onum' Oldstyle Figures lookup 9 subtable" four.oldstyle
 EndChar
 
@@ -3666,7 +3612,7 @@ SplineSet
  0 800 l 5
 EndSplineSet
 Validated: 5
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" five.oldstyle
+AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" five.oldstyle
 Substitution2: "'onum' Oldstyle Figures lookup 9 subtable" five.oldstyle
 EndChar
 
@@ -3707,7 +3653,7 @@ SplineSet
  200 800 l 1xd2
 EndSplineSet
 Validated: 5
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" six.oldstyle
+AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" six.oldstyle
 Substitution2: "'onum' Oldstyle Figures lookup 9 subtable" six.oldstyle
 EndChar
 
@@ -3740,7 +3686,7 @@ SplineSet
  0 800 l 1x3480
 EndSplineSet
 Validated: 5
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" seven.oldstyle
+AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" seven.oldstyle
 Substitution2: "'onum' Oldstyle Figures lookup 9 subtable" seven.oldstyle
 EndChar
 
@@ -3785,7 +3731,7 @@ SplineSet
  100 800 l 1x0a
 EndSplineSet
 Validated: 5
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" eight.oldstyle
+AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" eight.oldstyle
 Substitution2: "'onum' Oldstyle Figures lookup 9 subtable" eight.oldstyle
 EndChar
 
@@ -3828,7 +3774,7 @@ SplineSet
  400 700 l 1
 EndSplineSet
 Validated: 5
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" nine.oldstyle
+AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" nine.oldstyle
 Substitution2: "'onum' Oldstyle Figures lookup 9 subtable" nine.oldstyle
 EndChar
 
@@ -4020,7 +3966,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" question.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" question.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" question.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" question.sc
 EndChar
@@ -4153,7 +4098,6 @@ SplineSet
 EndSplineSet
 Validated: 1
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" exclamdown.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" exclamdown.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" exclamdown.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" exclamdown.sc
 EndChar
@@ -4890,7 +4834,6 @@ EndSplineSet
 Refer: 0 65 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" agrave.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" agrave.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" agrave.sc
 EndChar
 
@@ -4918,7 +4861,6 @@ EndSplineSet
 Refer: 0 65 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" aacute.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" aacute.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" aacute.sc
 EndChar
 
@@ -4952,7 +4894,6 @@ EndSplineSet
 Refer: 0 65 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" acircumflex.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" acircumflex.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" acircumflex.sc
 EndChar
 
@@ -4981,7 +4922,6 @@ EndSplineSet
 Refer: 0 65 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" adieresis.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" adieresis.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" adieresis.sc
 EndChar
 
@@ -5014,7 +4954,6 @@ EndSplineSet
 Refer: 0 65 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" aring.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" aring.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" aring.sc
 EndChar
 
@@ -5051,7 +4990,6 @@ EndSplineSet
 Refer: 0 65 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" atilde.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" atilde.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" atilde.sc
 EndChar
 
@@ -5078,7 +5016,6 @@ EndSplineSet
 Refer: 2 67 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ccedilla.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ccedilla.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" ccedilla.sc
 EndChar
 
@@ -5105,7 +5042,6 @@ EndSplineSet
 Refer: 4 69 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" egrave.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" egrave.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" egrave.sc
 EndChar
 
@@ -5132,7 +5068,6 @@ EndSplineSet
 Refer: 4 69 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" eacute.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" eacute.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" eacute.sc
 EndChar
 
@@ -5164,7 +5099,6 @@ EndSplineSet
 Refer: 4 69 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ecircumflex.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ecircumflex.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" ecircumflex.sc
 EndChar
 
@@ -5192,7 +5126,6 @@ EndSplineSet
 Refer: 4 69 N 1 0 0 1 0 0 2
 Validated: 1
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" edieresis.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" edieresis.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" edieresis.sc
 EndChar
 
@@ -5220,7 +5153,6 @@ EndSplineSet
 Refer: 8 73 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" igrave.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" igrave.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" igrave.sc
 EndChar
 
@@ -5247,7 +5179,6 @@ EndSplineSet
 Refer: 8 73 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" iacute.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" iacute.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" iacute.sc
 EndChar
 
@@ -5279,7 +5210,6 @@ EndSplineSet
 Refer: 8 73 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" icircumflex.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" icircumflex.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" icircumflex.sc
 EndChar
 
@@ -5307,7 +5237,6 @@ EndSplineSet
 Refer: 8 73 N 1 0 0 1 0 0 2
 Validated: 1
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" idieresis.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" idieresis.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" idieresis.sc
 EndChar
 
@@ -5361,7 +5290,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ae.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ae.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" ae.sc
 EndChar
 
@@ -5384,7 +5312,6 @@ EndSplineSet
 Refer: 3 68 S 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" eth.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" eth.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" eth.sc
 EndChar
 
@@ -5421,7 +5348,6 @@ EndSplineSet
 Refer: 13 78 S 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ntilde.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ntilde.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" ntilde.sc
 EndChar
 
@@ -5448,7 +5374,6 @@ EndSplineSet
 Refer: 14 79 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ograve.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ograve.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" ograve.sc
 EndChar
 
@@ -5465,7 +5390,6 @@ Refer: 191 180 S 1 0 0 1 300 300 2
 Refer: 14 79 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" oacute.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" oacute.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" oacute.sc
 EndChar
 
@@ -5482,7 +5406,6 @@ Refer: 234 710 S 1 0 0 1 200 300 2
 Refer: 14 79 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ocircumflex.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ocircumflex.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" ocircumflex.sc
 EndChar
 
@@ -5519,7 +5442,6 @@ EndSplineSet
 Refer: 14 79 S 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" otilde.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" otilde.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" otilde.sc
 EndChar
 
@@ -5562,7 +5484,6 @@ EndSplineSet
 Refer: 14 79 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" oslash.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" oslash.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" oslash.sc
 EndChar
 
@@ -5589,7 +5510,6 @@ EndSplineSet
 Refer: 20 85 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ugrave.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ugrave.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" ugrave.sc
 EndChar
 
@@ -5616,7 +5536,6 @@ EndSplineSet
 Refer: 20 85 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" uacute.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" uacute.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" uacute.sc
 EndChar
 
@@ -5648,7 +5567,6 @@ EndSplineSet
 Refer: 20 85 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ucircumflex.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ucircumflex.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" ucircumflex.sc
 EndChar
 
@@ -5676,7 +5594,6 @@ EndSplineSet
 Refer: 20 85 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" udieresis.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" udieresis.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" udieresis.sc
 EndChar
 
@@ -5743,7 +5660,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" thorn.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" thorn.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" thorn.sc
 EndChar
 
@@ -5770,7 +5686,6 @@ SplineSet
 EndSplineSet
 Refer: 36 97 N 1 0 0 1 0 0 2
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" agrave.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" agrave.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" agrave.sc
 EndChar
 
@@ -5796,7 +5711,6 @@ SplineSet
 EndSplineSet
 Refer: 36 97 N 1 0 0 1 0 0 2
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" aacute.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" aacute.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" aacute.sc
 EndChar
 
@@ -5827,7 +5741,6 @@ SplineSet
 EndSplineSet
 Refer: 36 97 N 1 0 0 1 0 0 2
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" acircumflex.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" acircumflex.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" acircumflex.sc
 EndChar
 
@@ -5862,7 +5775,6 @@ SplineSet
 EndSplineSet
 Refer: 36 97 N 1 0 0 1 0 0 2
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" atilde.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" atilde.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" atilde.sc
 EndChar
 
@@ -5889,7 +5801,6 @@ SplineSet
 EndSplineSet
 Refer: 36 97 N 1 0 0 1 0 0 2
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" adieresis.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" adieresis.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" adieresis.sc
 EndChar
 
@@ -5923,7 +5834,6 @@ SplineSet
 EndSplineSet
 Refer: 36 97 N 1 0 0 1 0 0 2
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" aring.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" aring.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" aring.sc
 EndChar
 
@@ -5991,7 +5901,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ae.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ae.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" ae.sc
 EndChar
 
@@ -6019,7 +5928,6 @@ EndSplineSet
 Refer: 39 99 S 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ccedilla.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ccedilla.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" ccedilla.sc
 EndChar
 
@@ -6046,7 +5954,6 @@ EndSplineSet
 Refer: 41 101 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" egrave.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" egrave.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" egrave.sc
 EndChar
 
@@ -6073,7 +5980,6 @@ EndSplineSet
 Refer: 41 101 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" eacute.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" eacute.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" eacute.sc
 EndChar
 
@@ -6105,7 +6011,6 @@ EndSplineSet
 Refer: 41 101 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ecircumflex.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ecircumflex.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" ecircumflex.sc
 EndChar
 
@@ -6133,7 +6038,6 @@ EndSplineSet
 Refer: 41 101 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" edieresis.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" edieresis.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" edieresis.sc
 EndChar
 
@@ -6156,7 +6060,6 @@ EndSplineSet
 Refer: 45 105 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" igrave.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" igrave.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" igrave.sc
 EndChar
 
@@ -6179,7 +6082,6 @@ EndSplineSet
 Refer: 45 105 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" iacute.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" iacute.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" iacute.sc
 EndChar
 
@@ -6222,7 +6124,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" icircumflex.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" icircumflex.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" icircumflex.sc
 EndChar
 
@@ -6260,7 +6161,6 @@ SplineSet
 EndSplineSet
 Validated: 1
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" idieresis.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" idieresis.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" idieresis.sc
 EndChar
 
@@ -6296,7 +6196,6 @@ EndSplineSet
 Refer: 50 110 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ntilde.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ntilde.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" ntilde.sc
 EndChar
 
@@ -6324,7 +6223,6 @@ EndSplineSet
 Refer: 51 111 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ograve.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ograve.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" ograve.sc
 EndChar
 
@@ -6351,7 +6249,6 @@ EndSplineSet
 Refer: 51 111 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" oacute.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" oacute.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" oacute.sc
 EndChar
 
@@ -6383,7 +6280,6 @@ EndSplineSet
 Refer: 51 111 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ocircumflex.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ocircumflex.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" ocircumflex.sc
 EndChar
 
@@ -6419,7 +6315,6 @@ EndSplineSet
 Refer: 51 111 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" otilde.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" otilde.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" otilde.sc
 EndChar
 
@@ -6447,7 +6342,6 @@ EndSplineSet
 Refer: 51 111 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" odieresis.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" odieresis.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" odieresis.sc
 EndChar
 
@@ -6485,7 +6379,6 @@ EndSplineSet
 Refer: 51 111 N 1 0 0 1 100 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" oslash.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" oslash.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" oslash.sc
 EndChar
 
@@ -6512,7 +6405,6 @@ EndSplineSet
 Refer: 57 117 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ugrave.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ugrave.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" ugrave.sc
 EndChar
 
@@ -6539,7 +6431,6 @@ EndSplineSet
 Refer: 57 117 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" uacute.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" uacute.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" uacute.sc
 EndChar
 
@@ -6572,7 +6463,6 @@ EndSplineSet
 Refer: 57 117 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ucircumflex.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ucircumflex.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" ucircumflex.sc
 EndChar
 
@@ -6600,7 +6490,6 @@ EndSplineSet
 Refer: 57 117 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" udieresis.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" udieresis.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" udieresis.sc
 EndChar
 
@@ -6650,7 +6539,6 @@ SplineSet
 EndSplineSet
 Refer: 61 121 N 1 0 0 1 0 0 2
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ydieresis.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ydieresis.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" ydieresis.sc
 EndChar
 
@@ -6693,7 +6581,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" thorn.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" thorn.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" thorn.sc
 EndChar
 
@@ -7329,7 +7216,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" eth.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" eth.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" eth.sc
 EndChar
 
@@ -7402,7 +7288,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" questiondown.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" questiondown.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" questiondown.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" questiondown.sc
 EndChar
@@ -7868,7 +7753,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" germandbls.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" germandbls.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" germandbls.sc
 EndChar
 
@@ -7896,7 +7780,6 @@ EndSplineSet
 Refer: 0 65 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" aogonek.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" aogonek.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" aogonek.sc
 EndChar
 
@@ -7952,7 +7835,6 @@ EndSplineSet
 Refer: 11 76 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" lslash.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" lslash.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" lslash.sc
 EndChar
 
@@ -7979,7 +7861,6 @@ EndSplineSet
 Refer: 11 76 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" lcaron.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" lcaron.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" lcaron.sc
 EndChar
 
@@ -8045,7 +7926,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" sacute.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" sacute.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" sacute.sc
 EndChar
 
@@ -8115,7 +7995,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" scaron.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" scaron.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" scaron.sc
 EndChar
 
@@ -8177,7 +8056,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" scedilla.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" scedilla.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" scedilla.sc
 EndChar
 
@@ -8210,7 +8088,6 @@ EndSplineSet
 Refer: 19 84 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" tcaron.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" tcaron.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" tcaron.sc
 EndChar
 
@@ -8238,7 +8115,6 @@ EndSplineSet
 Refer: 26 90 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" zacute.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" zacute.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" zacute.sc
 EndChar
 
@@ -8271,7 +8147,6 @@ EndSplineSet
 Refer: 26 90 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" zcaron.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" zcaron.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" zcaron.sc
 EndChar
 
@@ -8294,7 +8169,6 @@ EndSplineSet
 Refer: 26 90 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" zdotaccent.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" zdotaccent.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" zdotaccent.sc
 EndChar
 
@@ -8320,7 +8194,6 @@ SplineSet
 EndSplineSet
 Refer: 36 97 N 1 0 0 1 0 0 2
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" aogonek.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" aogonek.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" aogonek.sc
 EndChar
 
@@ -8371,7 +8244,6 @@ EndSplineSet
 Refer: 48 108 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" lslash.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" lslash.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" lslash.sc
 EndChar
 
@@ -8398,7 +8270,6 @@ EndSplineSet
 Refer: 48 108 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" lcaron.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" lcaron.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" lcaron.sc
 EndChar
 
@@ -8426,7 +8297,6 @@ EndSplineSet
 Refer: 55 115 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" sacute.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" sacute.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" sacute.sc
 EndChar
 
@@ -8487,7 +8357,6 @@ EndSplineSet
 Refer: 55 115 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" scaron.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" scaron.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" scaron.sc
 EndChar
 
@@ -8514,7 +8383,6 @@ EndSplineSet
 Refer: 55 115 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" scedilla.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" scedilla.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" scedilla.sc
 EndChar
 
@@ -8541,7 +8409,6 @@ EndSplineSet
 Refer: 56 116 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" tcaron.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" tcaron.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" tcaron.sc
 EndChar
 
@@ -8569,7 +8436,6 @@ EndSplineSet
 Refer: 62 122 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" zacute.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" zacute.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" zacute.sc
 EndChar
 
@@ -8634,7 +8500,6 @@ EndSplineSet
 Refer: 62 122 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" zcaron.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" zcaron.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" zcaron.sc
 EndChar
 
@@ -8657,7 +8522,6 @@ EndSplineSet
 Refer: 62 122 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" zdotaccent.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" zdotaccent.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" zdotaccent.sc
 EndChar
 
@@ -8685,7 +8549,6 @@ EndSplineSet
 Refer: 17 82 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" racute.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" racute.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" racute.sc
 EndChar
 
@@ -8719,7 +8582,6 @@ EndSplineSet
 Refer: 0 65 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" abreve.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" abreve.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" abreve.sc
 EndChar
 
@@ -8747,7 +8609,6 @@ EndSplineSet
 Refer: 11 76 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" lacute.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" lacute.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" lacute.sc
 EndChar
 
@@ -8775,7 +8636,6 @@ EndSplineSet
 Refer: 2 67 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" cacute.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" cacute.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" cacute.sc
 EndChar
 
@@ -8808,7 +8668,6 @@ EndSplineSet
 Refer: 2 67 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ccaron.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ccaron.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" ccaron.sc
 EndChar
 
@@ -8835,7 +8694,6 @@ EndSplineSet
 Refer: 4 69 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" eogonek.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" eogonek.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" eogonek.sc
 EndChar
 
@@ -8868,7 +8726,6 @@ EndSplineSet
 Refer: 4 69 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ecaron.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ecaron.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" ecaron.sc
 EndChar
 
@@ -8900,7 +8757,6 @@ EndSplineSet
 Refer: 3 68 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" dcaron.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" dcaron.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" dcaron.sc
 EndChar
 
@@ -8928,7 +8784,6 @@ EndSplineSet
 Refer: 3 68 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" dcroat.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" dcroat.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" dcroat.sc
 EndChar
 
@@ -8945,7 +8800,6 @@ Refer: 191 180 S 1 0 0 1 300 300 2
 Refer: 13 78 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" nacute.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" nacute.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" nacute.sc
 EndChar
 
@@ -8962,7 +8816,6 @@ Refer: 215 711 S 1 0 0 1 200 300 2
 Refer: 13 78 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ncaron.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ncaron.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" ncaron.sc
 EndChar
 
@@ -9008,7 +8861,6 @@ Refer: 111 168 S 1 0 0 1 200 300 2
 Refer: 14 79 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" odieresis.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" odieresis.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" odieresis.sc
 EndChar
 
@@ -9025,7 +8877,6 @@ Refer: 220 733 S 1 0 0 1 100 300 2
 Refer: 14 79 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ohungarumlaut.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ohungarumlaut.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" ohungarumlaut.sc
 EndChar
 
@@ -9042,7 +8893,6 @@ Refer: 215 711 S 1 0 0 1 100 300 2
 Refer: 17 82 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" rcaron.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" rcaron.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" rcaron.sc
 EndChar
 
@@ -9078,7 +8928,6 @@ EndSplineSet
 Refer: 20 85 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" uring.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" uring.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" uring.sc
 EndChar
 
@@ -9095,7 +8944,6 @@ Refer: 220 733 S 1 0 0 1 100 300 2
 Refer: 20 85 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" uhungarumlaut.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" uhungarumlaut.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" uhungarumlaut.sc
 EndChar
 
@@ -9112,7 +8960,6 @@ Refer: 190 184 S 1 0 0 1 100 0 2
 Refer: 19 84 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" tcedilla.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" tcedilla.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" tcedilla.sc
 EndChar
 
@@ -9128,7 +8975,6 @@ Fore
 Refer: 191 180 S 1 0 0 1 200 100 2
 Refer: 54 114 N 1 0 0 1 0 0 2
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" racute.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" racute.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" racute.sc
 EndChar
 
@@ -9144,7 +8990,6 @@ Fore
 Refer: 200 728 N 1 0 0 1 26 100 2
 Refer: 36 97 N 1 0 0 1 0 0 2
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" abreve.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" abreve.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" abreve.sc
 EndChar
 
@@ -9161,7 +9006,6 @@ Refer: 191 180 S 1 0 0 1 100 400 2
 Refer: 48 108 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" lacute.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" lacute.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" lacute.sc
 EndChar
 
@@ -9178,7 +9022,6 @@ Refer: 211 731 S 1 0 0 1 200 0 2
 Refer: 41 101 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" eogonek.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" eogonek.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" eogonek.sc
 EndChar
 
@@ -9214,7 +9057,6 @@ Refer: 220 733 S 1 0 0 1 0 100 2
 Refer: 51 111 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ohungarumlaut.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ohungarumlaut.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" ohungarumlaut.sc
 EndChar
 
@@ -9241,7 +9083,6 @@ EndSplineSet
 Refer: 40 100 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" dcaron.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" dcaron.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" dcaron.sc
 EndChar
 
@@ -9258,7 +9099,6 @@ Refer: 215 711 S 1 0 0 1 100 100 2
 Refer: 41 101 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ecaron.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ecaron.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" ecaron.sc
 EndChar
 
@@ -9275,7 +9115,6 @@ Refer: 191 180 S 1 0 0 1 200 100 2
 Refer: 39 99 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" cacute.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" cacute.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" cacute.sc
 EndChar
 
@@ -9292,7 +9131,6 @@ Refer: 39 99 N 1 0 0 1 0 0 2
 Refer: 215 711 S 1 0 0 1 100 100 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ccaron.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ccaron.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" ccaron.sc
 EndChar
 
@@ -9342,7 +9180,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" dcroat.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" dcroat.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" dcroat.sc
 EndChar
 
@@ -9359,7 +9196,6 @@ Refer: 191 180 S 1 0 0 1 200 100 2
 Refer: 50 110 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" nacute.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" nacute.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" nacute.sc
 EndChar
 
@@ -9376,7 +9212,6 @@ Refer: 215 711 S 1 0 0 1 100 100 2
 Refer: 50 110 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ncaron.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ncaron.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" ncaron.sc
 EndChar
 
@@ -9392,7 +9227,6 @@ Fore
 Refer: 215 711 S 1 0 0 1 100 100 2
 Refer: 54 114 N 1 0 0 1 0 0 2
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" rcaron.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" rcaron.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" rcaron.sc
 EndChar
 
@@ -9409,7 +9243,6 @@ Refer: 180 176 S 1 0 0 1 0 100 2
 Refer: 57 117 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" uring.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" uring.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" uring.sc
 EndChar
 
@@ -9426,7 +9259,6 @@ Refer: 220 733 S 1 0 0 1 100 100 2
 Refer: 57 117 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" uhungarumlaut.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" uhungarumlaut.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" uhungarumlaut.sc
 EndChar
 
@@ -9443,7 +9275,6 @@ Refer: 190 184 S 1 0 0 1 98 0 2
 Refer: 56 116 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" tcedilla.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" tcedilla.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" tcedilla.sc
 EndChar
 
@@ -9460,7 +9291,6 @@ Refer: 234 710 S 1 0 0 1 200 300 2
 Refer: 7 72 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" hcircumflex.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" hcircumflex.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" hcircumflex.sc
 EndChar
 
@@ -9477,7 +9307,6 @@ Refer: 245 729 S 1 0 0 1 200 100 2
 Refer: 43 103 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" gdotaccent.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" gdotaccent.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" gdotaccent.sc
 EndChar
 
@@ -9495,7 +9324,6 @@ Refer: 179 175 S 1 0 0 1 200 300 2
 Refer: 0 65 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" amacron.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" amacron.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" amacron.sc
 EndChar
 
@@ -9517,7 +9345,6 @@ SplineSet
 EndSplineSet
 Refer: 36 97 N 1 0 0 1 0 0 2
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" amacron.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" amacron.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" amacron.sc
 EndChar
 
@@ -9534,7 +9361,6 @@ Refer: 234 710 N 1 0 0 1 200 300 2
 Refer: 2 67 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ccircumflex.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ccircumflex.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" ccircumflex.sc
 EndChar
 
@@ -9551,7 +9377,6 @@ Refer: 245 729 S 1 0 0 1 300 300 2
 Refer: 2 67 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" cdotaccent.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" cdotaccent.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" cdotaccent.sc
 EndChar
 
@@ -9568,7 +9393,6 @@ Refer: 234 710 S 1 0 0 1 100 100 2
 Refer: 39 99 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ccircumflex.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ccircumflex.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" ccircumflex.sc
 EndChar
 
@@ -9585,7 +9409,6 @@ Refer: 245 729 S 1 0 0 1 200 100 2
 Refer: 39 99 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" cdotaccent.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" cdotaccent.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" cdotaccent.sc
 EndChar
 
@@ -9622,7 +9445,6 @@ Refer: 200 728 S 1 0 0 1 100 300 2
 Refer: 6 71 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" gbreve.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" gbreve.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" gbreve.sc
 EndChar
 
@@ -9638,8 +9460,7 @@ Fore
 Refer: 234 710 S 1 0 0 1 0 300 2
 Refer: 9 74 N 1 0 0 1 0 0 2
 Validated: 5
-AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" jcircumflex.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" jcircumflex.alt jcircumflex.sc
+AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" jcircumflex.alt jcircumflex.sc
 Substitution2: "Single Substitution lookup 0 subtable" jcircumflex.alt
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" jcircumflex.sc
 EndChar
@@ -9687,7 +9508,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" hbar.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" hbar.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" hbar.sc
 EndChar
 
@@ -9704,7 +9524,6 @@ Refer: 234 710 S 1 0 0 1 0 400 2
 Refer: 44 104 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" hcircumflex.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" hcircumflex.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" hcircumflex.sc
 EndChar
 
@@ -9746,7 +9565,6 @@ Refer: 200 728 S 1 0 0 1 0 100 2
 Refer: 43 103 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" gbreve.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" gbreve.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" gbreve.sc
 EndChar
 
@@ -9778,7 +9596,6 @@ EndSplineSet
 Refer: 234 710 S 1 0 0 1 0 100 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" jcircumflex.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" jcircumflex.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" jcircumflex.sc
 EndChar
 
@@ -9795,7 +9612,6 @@ Refer: 245 729 S 1 0 0 1 300 300 2
 Refer: 6 71 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" gdotaccent.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" gdotaccent.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" gdotaccent.sc
 EndChar
 
@@ -9812,7 +9628,6 @@ Refer: 234 710 S 1 0 0 1 200 300 2
 Refer: 6 71 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" gcircumflex.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" gcircumflex.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" gcircumflex.sc
 EndChar
 
@@ -9844,7 +9659,6 @@ EndSplineSet
 Refer: 20 85 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ubreve.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ubreve.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" ubreve.sc
 EndChar
 
@@ -9861,7 +9675,6 @@ Refer: 234 710 S 1 0 0 1 150 300 2
 Refer: 18 83 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" scircumflex.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" scircumflex.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" scircumflex.sc
 EndChar
 
@@ -9878,7 +9691,6 @@ Refer: 234 710 S 1 0 0 1 100 100 2
 Refer: 43 103 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" gcircumflex.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" gcircumflex.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" gcircumflex.sc
 EndChar
 
@@ -9895,7 +9707,6 @@ Refer: 200 728 N 1 0 0 1 100 100 2
 Refer: 57 117 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ubreve.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ubreve.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" ubreve.sc
 EndChar
 
@@ -9912,7 +9723,6 @@ Refer: 234 710 S 1 0 0 1 200 100 2
 Refer: 55 115 N 1 0 0 1 100 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" scircumflex.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" scircumflex.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" scircumflex.sc
 EndChar
 
@@ -9929,7 +9739,6 @@ Refer: 111 168 S 1 0 0 1 200 300 2
 Refer: 24 89 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ydieresis.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ydieresis.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" ydieresis.sc
 EndChar
 
@@ -9988,7 +9797,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" oe.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" oe.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" oe.sc
 EndChar
 
@@ -10056,7 +9864,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" oe.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" oe.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" oe.sc
 EndChar
 
@@ -10160,7 +9967,6 @@ EndSplineSet
 Refer: 8 73 S 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" itilde.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" itilde.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" itilde.sc
 EndChar
 
@@ -10177,7 +9983,6 @@ Refer: 11 76 N 1 0 0 1 0 0 2
 Refer: 190 184 S 1 0 0 1 0 -100 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" lcommaaccent.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" lcommaaccent.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" lcommaaccent.sc
 EndChar
 
@@ -10200,7 +10005,6 @@ EndSplineSet
 Refer: 4 69 N 1 0 0 1 0 0 2
 Validated: 1
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" emacron.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" emacron.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" emacron.sc
 EndChar
 
@@ -10217,7 +10021,6 @@ Refer: 190 184 S 1 0 0 1 200 -100 2
 Refer: 6 71 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" gcommaaccent.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" gcommaaccent.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" gcommaaccent.sc
 EndChar
 
@@ -10245,7 +10048,6 @@ EndSplineSet
 Refer: 19 84 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" tbar.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" tbar.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" tbar.sc
 EndChar
 
@@ -10307,7 +10109,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" itilde.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" itilde.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" itilde.sc
 EndChar
 
@@ -10323,7 +10124,6 @@ Fore
 Refer: 190 184 S 1 0 0 1 0 -100 2
 Refer: 48 108 N 1 0 0 1 0 0 2
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" lcommaaccent.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" lcommaaccent.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" lcommaaccent.sc
 EndChar
 
@@ -10346,7 +10146,6 @@ EndSplineSet
 Refer: 41 101 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" emacron.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" emacron.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" emacron.sc
 EndChar
 
@@ -10374,7 +10173,6 @@ EndSplineSet
 Refer: 43 103 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" gcommaaccent.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" gcommaaccent.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" gcommaaccent.sc
 EndChar
 
@@ -10406,7 +10204,6 @@ EndSplineSet
 Refer: 4 69 S 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ebreve.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ebreve.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" ebreve.sc
 EndChar
 
@@ -10423,7 +10220,6 @@ Refer: 200 728 S 1 0 0 1 0 100 2
 Refer: 41 101 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ebreve.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ebreve.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" ebreve.sc
 EndChar
 
@@ -10439,7 +10235,6 @@ Fore
 Refer: 189 183 S 1 0 0 1 200 700 2
 Refer: 4 69 N 1 0 0 1 0 0 2
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" edotaccent.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" edotaccent.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" edotaccent.sc
 EndChar
 
@@ -10455,7 +10250,6 @@ Fore
 Refer: 189 183 S 1 0 0 1 200 500 2
 Refer: 41 101 N 1 0 0 1 0 0 2
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" edotaccent.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" edotaccent.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" edotaccent.sc
 EndChar
 
@@ -10472,7 +10266,6 @@ Refer: 179 175 S 1 0 0 1 0 300 2
 Refer: 8 73 N 1 0 0 1 0 0 2
 Validated: 1
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" imacron.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" imacron.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" imacron.sc
 EndChar
 
@@ -10505,7 +10298,6 @@ EndSplineSet
 Refer: 8 73 S 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ibreve.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ibreve.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" ibreve.sc
 EndChar
 
@@ -10521,7 +10313,6 @@ Fore
 Refer: 211 731 S 1 0 0 1 100 0 2
 Refer: 8 73 N 1 0 0 1 0 0 2
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" iogonek.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" iogonek.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" iogonek.sc
 EndChar
 
@@ -10556,7 +10347,6 @@ SplineSet
 EndSplineSet
 Validated: 1
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" imacron.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" imacron.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" imacron.sc
 EndChar
 
@@ -10587,7 +10377,6 @@ EndSplineSet
 Refer: 200 728 S 1 0 0 1 0 100 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ibreve.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ibreve.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" ibreve.sc
 EndChar
 
@@ -10603,7 +10392,6 @@ Fore
 Refer: 211 731 S 1 0 0 1 100 0 2
 Refer: 45 105 N 1 0 0 1 0 0 2
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" iogonek.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" iogonek.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" iogonek.sc
 EndChar
 
@@ -10662,7 +10450,6 @@ SplineSet
 EndSplineSet
 Validated: 1
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" hbar.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" hbar.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" hbar.sc
 EndChar
 
@@ -10679,7 +10466,6 @@ Refer: 190 184 S 1 0 0 1 200 -100 2
 Refer: 10 75 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" kcommaaccent.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" kcommaaccent.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" kcommaaccent.sc
 EndChar
 
@@ -10696,7 +10482,6 @@ Refer: 190 184 S 1 0 0 1 100 -100 2
 Refer: 47 107 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" kcommaaccent.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" kcommaaccent.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" kcommaaccent.sc
 EndChar
 
@@ -10775,7 +10560,6 @@ EndSplineSet
 Refer: 57 117 S 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" utilde.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" utilde.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" utilde.sc
 EndChar
 
@@ -10803,7 +10587,6 @@ EndSplineSet
 Refer: 56 116 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" tbar.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" tbar.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" tbar.sc
 EndChar
 
@@ -10820,7 +10603,6 @@ Refer: 190 184 S 1 0 0 1 200 -100 2
 Refer: 13 78 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ncommaaccent.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ncommaaccent.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" ncommaaccent.sc
 EndChar
 
@@ -10837,7 +10619,6 @@ Refer: 179 175 S 1 0 0 1 200 300 2
 Refer: 14 79 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" omacron.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" omacron.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" omacron.sc
 EndChar
 
@@ -10854,7 +10635,6 @@ Refer: 211 731 S 1 0 0 1 300 0 2
 Refer: 20 85 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" uogonek.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" uogonek.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" uogonek.sc
 EndChar
 
@@ -10890,7 +10670,6 @@ EndSplineSet
 Refer: 20 85 S 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" utilde.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" utilde.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" utilde.sc
 EndChar
 
@@ -10921,7 +10700,6 @@ Refer: 190 184 S 1 0 0 1 100 -100 2
 Refer: 50 110 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ncommaaccent.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ncommaaccent.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" ncommaaccent.sc
 EndChar
 
@@ -10944,7 +10722,6 @@ EndSplineSet
 Refer: 51 111 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" omacron.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" omacron.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" omacron.sc
 EndChar
 
@@ -10998,7 +10775,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" eng.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" eng.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" eng.sc
 EndChar
 
@@ -11044,7 +10820,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" eng.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" eng.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" eng.sc
 EndChar
 
@@ -11081,7 +10856,6 @@ Refer: 211 731 S 1 0 0 1 400 0 2
 Refer: 57 117 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" uogonek.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" uogonek.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" uogonek.sc
 EndChar
 
@@ -11518,7 +11292,6 @@ Refer: 234 710 S 1 0 0 1 200 100 2
 Refer: 59 119 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" wcircumflex.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" wcircumflex.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" wcircumflex.sc
 EndChar
 
@@ -11535,7 +11308,6 @@ Refer: 234 710 S 1 0 0 1 300 300 2
 Refer: 22 87 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" wcircumflex.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" wcircumflex.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" wcircumflex.sc
 EndChar
 
@@ -11592,7 +11364,6 @@ Refer: 234 710 S 1 0 0 1 200 300 2
 Refer: 24 89 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ycircumflex.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ycircumflex.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" ycircumflex.sc
 EndChar
 
@@ -11608,7 +11379,6 @@ Fore
 Refer: 234 710 S 1 0 0 1 100 100 2
 Refer: 61 121 N 1 0 0 1 0 0 2
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ycircumflex.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ycircumflex.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" ycircumflex.sc
 EndChar
 
@@ -11638,7 +11408,6 @@ Refer: 190 184 S 1 0 0 1 150 -100 2
 Refer: 18 83 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" scommaaccent.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" scommaaccent.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" scommaaccent.sc
 EndChar
 
@@ -11655,7 +11424,6 @@ Refer: 190 184 S 1 0 0 1 100 -100 2
 Refer: 55 115 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" scommaaccent.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" scommaaccent.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" scommaaccent.sc
 EndChar
 
@@ -11672,7 +11440,6 @@ Refer: 190 184 S 1 0 0 1 100 -100 2
 Refer: 19 84 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" tcommaaccent.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" tcommaaccent.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" tcommaaccent.sc
 EndChar
 
@@ -11689,7 +11456,6 @@ Refer: 190 184 S 1 0 0 1 98 -100 2
 Refer: 56 116 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" tcommaaccent.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" tcommaaccent.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" tcommaaccent.sc
 EndChar
 
@@ -11725,7 +11491,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" s
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" s
 Substitution2: "'fina' Terminal Forms lookup 2 subtable" s
 EndChar
 
@@ -11758,7 +11523,6 @@ EndSplineSet
 Refer: 14 79 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" obreve.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" obreve.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" obreve.sc
 EndChar
 
@@ -11775,7 +11539,6 @@ Refer: 200 728 S 1 0 0 1 0 100 2
 Refer: 51 111 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" obreve.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" obreve.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" obreve.sc
 EndChar
 
@@ -11871,7 +11634,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ij.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ij.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" ij.sc
 EndChar
 
@@ -11888,7 +11650,6 @@ Refer: 46 106 N 1 0 0 1 300 0 2
 Refer: 45 105 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ij.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ij.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" ij.sc
 EndChar
 
@@ -11917,7 +11678,6 @@ Fore
 Refer: 18 83 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" dzecyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" dzecyrl.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" dzecyrl.sc
 EndChar
 
@@ -11933,7 +11693,6 @@ Fore
 Refer: 8 73 N 1 0 0 1 0 0 2
 Validated: 1
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" icyrlukrn.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" icyrlukrn.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" icyrlukrn.sc
 EndChar
 
@@ -11948,8 +11707,7 @@ LayerCount: 2
 Fore
 Refer: 9 74 N 1 0 0 1 0 0 2
 Validated: 5
-AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" jecyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" jecyrl.alt jecyrl.sc
+AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" jecyrl.alt jecyrl.sc
 Substitution2: "Single Substitution lookup 0 subtable" jecyrl.alt
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" jecyrl.sc
 EndChar
@@ -11967,7 +11725,6 @@ Fore
 Refer: 0 65 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" acyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" acyrl.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" acyrl.sc
 EndChar
 
@@ -11984,7 +11741,6 @@ Fore
 Refer: 1 66 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" vecyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" vecyrl.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" vecyrl.sc
 EndChar
 
@@ -12000,7 +11756,6 @@ Fore
 Refer: 4 69 N 1 0 0 1 0 0 2
 Validated: 1
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" iecyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" iecyrl.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" iecyrl.sc
 EndChar
 
@@ -12016,7 +11771,6 @@ Fore
 Refer: 126 207 N 1 0 0 1 0 0 2
 Validated: 1
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" yicyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" yicyrl.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" yicyrl.sc
 EndChar
 
@@ -12032,7 +11786,6 @@ Fore
 Refer: 12 77 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" emcyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" emcyrl.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" emcyrl.sc
 EndChar
 
@@ -12048,7 +11801,6 @@ Fore
 Refer: 7 72 N 1 0 0 1 0 0 2
 Validated: 1
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" encyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" encyrl.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" encyrl.sc
 EndChar
 
@@ -12064,7 +11816,6 @@ Fore
 Refer: 14 79 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ocyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ocyrl.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" ocyrl.sc
 EndChar
 
@@ -12080,7 +11831,6 @@ Fore
 Refer: 15 80 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ercyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ercyrl.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" ercyrl.sc
 EndChar
 
@@ -12096,7 +11846,6 @@ Fore
 Refer: 2 67 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" escyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" escyrl.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" escyrl.sc
 EndChar
 
@@ -12113,7 +11862,6 @@ Fore
 Refer: 19 84 N 1 0 0 1 0 0 2
 Validated: 1
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" tecyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" tecyrl.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" tecyrl.sc
 EndChar
 
@@ -12129,7 +11877,6 @@ Fore
 Refer: 23 88 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" hacyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" hacyrl.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" hacyrl.sc
 EndChar
 
@@ -12144,7 +11891,6 @@ LayerCount: 2
 Fore
 Refer: 36 97 N 1 0 0 1 0 0 2
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" acyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" acyrl.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" acyrl.sc
 EndChar
 
@@ -12160,7 +11906,6 @@ Fore
 Refer: 41 101 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" iecyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" iecyrl.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" iecyrl.sc
 EndChar
 
@@ -12176,7 +11921,6 @@ Fore
 Refer: 51 111 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ocyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ocyrl.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" ocyrl.sc
 EndChar
 
@@ -12192,7 +11936,6 @@ Fore
 Refer: 52 112 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ercyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ercyrl.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" ercyrl.sc
 EndChar
 
@@ -12208,7 +11951,6 @@ Fore
 Refer: 39 99 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" escyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" escyrl.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" escyrl.sc
 EndChar
 
@@ -12223,7 +11965,6 @@ LayerCount: 2
 Fore
 Refer: 61 121 N 1 0 0 1 0 0 2
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ucyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ucyrl.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" ucyrl.sc
 EndChar
 
@@ -12239,7 +11980,6 @@ Fore
 Refer: 60 120 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" hacyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" hacyrl.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" hacyrl.sc
 EndChar
 
@@ -12268,7 +12008,6 @@ Fore
 Refer: 55 115 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" dzecyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" dzecyrl.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" dzecyrl.sc
 EndChar
 
@@ -12284,7 +12023,6 @@ Fore
 Refer: 45 105 N 1 0 0 1 0 0 2
 Validated: 1
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" icyrlukrn.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" icyrlukrn.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" icyrlukrn.sc
 EndChar
 
@@ -12300,7 +12038,6 @@ Fore
 Refer: 156 239 N 1 0 0 1 0 0 2
 Validated: 1
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" yicyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" yicyrl.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" yicyrl.sc
 EndChar
 
@@ -12316,7 +12053,6 @@ Fore
 Refer: 46 106 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" jecyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" jecyrl.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" jecyrl.sc
 EndChar
 
@@ -12359,7 +12095,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" iecyrlukrn.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" iecyrlukrn.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" iecyrlukrn.sc
 EndChar
 
@@ -12397,7 +12132,6 @@ SplineSet
 EndSplineSet
 Validated: 1
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" pecyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" pecyrl.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" pecyrl.sc
 EndChar
 
@@ -12448,7 +12182,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" iecyrlukrn.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" iecyrlukrn.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" iecyrlukrn.sc
 EndChar
 
@@ -12481,7 +12214,6 @@ EndSplineSet
 Refer: 191 180 N 1 0 0 1 100 300 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" gjecyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" gjecyrl.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" gjecyrl.sc
 EndChar
 
@@ -12536,7 +12268,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" njecyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" njecyrl.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" njecyrl.sc
 EndChar
 
@@ -12585,7 +12316,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ljecyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ljecyrl.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" ljecyrl.sc
 EndChar
 
@@ -12626,7 +12356,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" becyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" becyrl.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" becyrl.sc
 EndChar
 
@@ -12658,7 +12387,6 @@ SplineSet
 EndSplineSet
 Validated: 1
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ghecyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ghecyrl.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" ghecyrl.sc
 EndChar
 
@@ -12698,7 +12426,6 @@ SplineSet
 EndSplineSet
 Validated: 1
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" tsecyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" tsecyrl.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" tsecyrl.sc
 EndChar
 
@@ -12740,7 +12467,6 @@ SplineSet
 EndSplineSet
 Validated: 1
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" shacyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" shacyrl.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" shacyrl.sc
 EndChar
 
@@ -12784,7 +12510,6 @@ SplineSet
 EndSplineSet
 Validated: 1
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" shchacyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" shchacyrl.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" shchacyrl.sc
 EndChar
 
@@ -12825,7 +12550,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" hardcyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" hardcyrl.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" hardcyrl.sc
 EndChar
 
@@ -12868,7 +12592,6 @@ SplineSet
 EndSplineSet
 Validated: 1
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" dzhecyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" dzhecyrl.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" dzhecyrl.sc
 EndChar
 
@@ -12903,7 +12626,6 @@ SplineSet
 EndSplineSet
 Validated: 1
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" tecyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" tecyrl.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" tecyrl.sc
 EndChar
 
@@ -12941,7 +12663,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" softcyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" softcyrl.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" softcyrl.sc
 EndChar
 
@@ -12991,7 +12712,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" yerucyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" yerucyrl.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" yerucyrl.sc
 EndChar
 
@@ -13058,7 +12778,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" yucyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" yucyrl.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" yucyrl.sc
 EndChar
 
@@ -13103,7 +12822,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" yacyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" yacyrl.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" yacyrl.sc
 EndChar
 
@@ -13147,7 +12865,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" vecyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" vecyrl.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" vecyrl.sc
 EndChar
 
@@ -13179,7 +12896,6 @@ SplineSet
 EndSplineSet
 Validated: 1
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ghecyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ghecyrl.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" ghecyrl.sc
 EndChar
 
@@ -13215,7 +12931,6 @@ SplineSet
 EndSplineSet
 Validated: 1
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" pecyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" pecyrl.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" pecyrl.sc
 EndChar
 
@@ -13257,7 +12972,6 @@ SplineSet
 EndSplineSet
 Validated: 1
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" encyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" encyrl.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" encyrl.sc
 EndChar
 
@@ -13295,7 +13009,6 @@ SplineSet
 EndSplineSet
 Validated: 1
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" tsecyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" tsecyrl.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" tsecyrl.sc
 EndChar
 
@@ -13342,7 +13055,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" yucyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" yucyrl.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" yucyrl.sc
 EndChar
 
@@ -13384,7 +13096,6 @@ SplineSet
 EndSplineSet
 Validated: 1
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" shacyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" shacyrl.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" shacyrl.sc
 EndChar
 
@@ -13428,7 +13139,6 @@ SplineSet
 EndSplineSet
 Validated: 1
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" shchacyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" shchacyrl.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" shchacyrl.sc
 EndChar
 
@@ -13468,7 +13178,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" elcyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" elcyrl.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" elcyrl.sc
 EndChar
 
@@ -13508,7 +13217,6 @@ SplineSet
 EndSplineSet
 Validated: 1
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" dzhecyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" dzhecyrl.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" dzhecyrl.sc
 EndChar
 
@@ -13549,7 +13257,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" elcyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" elcyrl.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" elcyrl.sc
 EndChar
 
@@ -13594,7 +13301,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ecyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ecyrl.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" ecyrl.sc
 EndChar
 
@@ -13642,7 +13348,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" fecyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" fecyrl.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" fecyrl.sc
 EndChar
 
@@ -13689,7 +13394,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" checyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" checyrl.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" checyrl.sc
 EndChar
 
@@ -13740,7 +13444,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" tshecyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" tshecyrl.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" tshecyrl.sc
 EndChar
 
@@ -13773,7 +13476,6 @@ EndSplineSet
 Refer: 191 180 S 1 0 0 1 100 100 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" gjecyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" gjecyrl.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" gjecyrl.sc
 EndChar
 
@@ -13825,7 +13527,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" djecyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" djecyrl.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" djecyrl.sc
 EndChar
 
@@ -13866,7 +13567,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" checyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" checyrl.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" checyrl.sc
 EndChar
 
@@ -13918,7 +13618,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" fecyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" fecyrl.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" fecyrl.sc
 EndChar
 
@@ -13961,7 +13660,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" decyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" decyrl.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" decyrl.sc
 EndChar
 
@@ -14001,7 +13699,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" hardcyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" hardcyrl.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" hardcyrl.sc
 EndChar
 
@@ -14050,7 +13747,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" yerucyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" yerucyrl.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" yerucyrl.sc
 EndChar
 
@@ -14101,7 +13797,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" emcyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" emcyrl.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" emcyrl.sc
 EndChar
 
@@ -14150,7 +13845,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ljecyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ljecyrl.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" ljecyrl.sc
 EndChar
 
@@ -14201,7 +13895,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" njecyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" njecyrl.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" njecyrl.sc
 EndChar
 
@@ -14240,7 +13933,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" softcyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" softcyrl.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" softcyrl.sc
 EndChar
 
@@ -14281,7 +13973,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ecyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ecyrl.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" ecyrl.sc
 EndChar
 
@@ -14328,7 +14019,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" tshecyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" tshecyrl.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" tshecyrl.sc
 EndChar
 
@@ -14383,7 +14073,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" djecyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" djecyrl.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" djecyrl.sc
 EndChar
 
@@ -14436,7 +14125,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" kacyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" kacyrl.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" kacyrl.sc
 EndChar
 
@@ -14499,7 +14187,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" kjecyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" kjecyrl.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" kjecyrl.sc
 EndChar
 
@@ -14546,7 +14233,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" kacyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" kacyrl.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" kacyrl.sc
 EndChar
 
@@ -14603,7 +14289,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" kjecyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" kjecyrl.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" kjecyrl.sc
 EndChar
 
@@ -14634,7 +14319,6 @@ SplineSet
 EndSplineSet
 Refer: 386 1091 S 1 0 0 1 0 0 2
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ucyrlbreve.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ucyrlbreve.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" ucyrlbreve.sc
 EndChar
 
@@ -14680,7 +14364,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" yacyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" yacyrl.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" yacyrl.sc
 EndChar
 
@@ -14783,7 +14466,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" decyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" decyrl.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" decyrl.sc
 EndChar
 
@@ -14852,7 +14534,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ucyrlbreve.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ucyrlbreve.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" ucyrlbreve.sc
 EndChar
 
@@ -14906,7 +14587,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" ucyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" ucyrl.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" ucyrl.sc
 EndChar
 
@@ -14959,7 +14639,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" icyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" icyrl.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" icyrl.sc
 EndChar
 
@@ -15024,7 +14703,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" icyrlbreve.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" icyrlbreve.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" icyrlbreve.sc
 EndChar
 
@@ -15068,7 +14746,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" zecyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" zecyrl.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" zecyrl.sc
 EndChar
 
@@ -15115,7 +14792,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" icyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" icyrl.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" icyrl.sc
 EndChar
 
@@ -15177,7 +14853,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" icyrlbreve.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" icyrlbreve.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" icyrlbreve.sc
 EndChar
 
@@ -15223,7 +14898,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" zecyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" zecyrl.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" zecyrl.sc
 EndChar
 
@@ -15269,7 +14943,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" becyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" becyrl.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" becyrl.sc
 EndChar
 
@@ -15348,7 +15021,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" zhecyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" zhecyrl.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" zhecyrl.sc
 EndChar
 
@@ -15428,7 +15100,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" zhecyrl.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" zhecyrl.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" zhecyrl.sc
 EndChar
 
@@ -15444,7 +15115,6 @@ LayerCount: 2
 Fore
 Refer: 0 65 N 1 0 0 1 0 0 2
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" alpha.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" alpha.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" alpha.sc
 EndChar
 
@@ -15461,7 +15131,6 @@ Fore
 Refer: 1 66 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" beta.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" beta.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" beta.sc
 EndChar
 
@@ -15493,7 +15162,6 @@ SplineSet
 EndSplineSet
 Validated: 1
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" gamma.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" gamma.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" gamma.sc
 EndChar
 
@@ -15508,7 +15176,6 @@ LayerCount: 2
 Fore
 Refer: 4 69 N 1 0 0 1 25 0 2
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" epsilon.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" epsilon.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" epsilon.sc
 EndChar
 
@@ -15523,7 +15190,6 @@ LayerCount: 2
 Fore
 Refer: 26 90 N 1 0 0 1 -25 0 2
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" zeta.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" zeta.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" zeta.sc
 EndChar
 
@@ -15539,7 +15205,6 @@ Fore
 Refer: 7 72 N 1 0 0 1 0 0 2
 Validated: 1
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" eta.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" eta.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" eta.sc
 EndChar
 
@@ -15555,7 +15220,6 @@ Fore
 Refer: 8 73 N 1 0 0 1 0 0 2
 Validated: 1
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" iota.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" iota.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" iota.sc
 EndChar
 
@@ -15571,7 +15235,6 @@ Fore
 Refer: 12 77 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" mu.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" mu.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" mu.sc
 EndChar
 
@@ -15587,7 +15250,6 @@ Fore
 Refer: 13 78 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" nu.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" nu.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" nu.sc
 EndChar
 
@@ -15603,7 +15265,6 @@ Fore
 Refer: 14 79 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" omicron.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" omicron.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" omicron.sc
 EndChar
 
@@ -15619,7 +15280,6 @@ Fore
 Refer: 15 80 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" rho.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" rho.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" rho.sc
 EndChar
 
@@ -15636,7 +15296,6 @@ Fore
 Refer: 19 84 N 1 0 0 1 0 0 2
 Validated: 1
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" tau.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" tau.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" tau.sc
 EndChar
 
@@ -15761,7 +15420,6 @@ SplineSet
  125 300 l 1x8880
 EndSplineSet
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" delta.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" delta.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" delta.sc
 EndChar
 
@@ -15777,7 +15435,6 @@ Fore
 Refer: 24 89 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" upsilon.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" upsilon.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" upsilon.sc
 EndChar
 
@@ -15794,7 +15451,6 @@ Fore
 Refer: 423 1060 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" phi.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" phi.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" phi.sc
 EndChar
 
@@ -15865,7 +15521,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" chi.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" chi.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" chi.sc
 EndChar
 
@@ -15919,7 +15574,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" psi.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" psi.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" psi.sc
 EndChar
 
@@ -15969,7 +15623,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" lambda.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" lambda.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" lambda.sc
 EndChar
 
@@ -15996,7 +15649,6 @@ EndSplineSet
 Refer: 464 919 N 1 0 0 1 300 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" etatonos.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" etatonos.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" etatonos.sc
 EndChar
 
@@ -16023,7 +15675,6 @@ EndSplineSet
 Refer: 465 921 N 1 0 0 1 300 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" iotatonos.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" iotatonos.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" iotatonos.sc
 EndChar
 
@@ -16050,7 +15701,6 @@ EndSplineSet
 Refer: 468 927 N 1 0 0 1 200 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" omicrontonos.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" omicrontonos.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" omicrontonos.sc
 EndChar
 
@@ -16077,7 +15727,6 @@ EndSplineSet
 Refer: 473 933 N 1 0 0 1 300 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" upsilontonos.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" upsilontonos.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" upsilontonos.sc
 EndChar
 
@@ -16105,7 +15754,6 @@ EndSplineSet
 Refer: 465 921 N 1 0 0 1 0 0 2
 Validated: 1
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" iotadieresis.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" iotadieresis.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" iotadieresis.sc
 EndChar
 
@@ -16133,7 +15781,6 @@ EndSplineSet
 Refer: 473 933 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" upsilondieresis.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" upsilondieresis.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" upsilondieresis.sc
 EndChar
 
@@ -16159,7 +15806,6 @@ SplineSet
 EndSplineSet
 Refer: 462 917 N 1 0 0 1 300 0 2
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" epsilontonos.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" epsilontonos.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" epsilontonos.sc
 EndChar
 
@@ -16186,7 +15832,6 @@ SplineSet
 EndSplineSet
 Refer: 459 913 N 1 0 0 1 0 0 2
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" alphatonos.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" alphatonos.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" alphatonos.sc
 EndChar
 
@@ -16248,7 +15893,6 @@ SplineSet
 EndSplineSet
 Validated: 1
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" pi.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" pi.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" pi.sc
 EndChar
 
@@ -16284,7 +15928,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" omicron.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" omicron.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" omicron.sc
 EndChar
 
@@ -16324,7 +15967,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" mu.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" mu.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" mu.sc
 EndChar
 
@@ -16359,7 +16001,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" sigma.sc sigma1
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" sigma.sc sigma1
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" sigma.sc
 Substitution2: "'fina' Terminal Forms lookup 2 subtable" sigma1
 EndChar
@@ -16399,7 +16040,6 @@ SplineSet
  25 200 l 1xa6
 EndSplineSet
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" xi.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" xi.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" xi.sc
 EndChar
 
@@ -16456,7 +16096,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" theta.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" theta.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" theta.sc
 EndChar
 
@@ -16514,7 +16153,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" rho.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" rho.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" rho.sc
 EndChar
 
@@ -16592,7 +16230,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" pi.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" pi.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" pi.sc
 EndChar
 
@@ -16636,7 +16273,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" tau.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" tau.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" tau.sc
 EndChar
 
@@ -16691,7 +16327,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" kappa.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" kappa.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" kappa.sc
 EndChar
 
@@ -16748,7 +16383,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" omega.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" omega.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" omega.sc
 EndChar
 
@@ -16765,7 +16399,6 @@ Refer: 493 900 N 1 0 0 1 0 0 2
 Refer: 499 937 N 1 0 0 1 200 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" omegatonos.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" omegatonos.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" omegatonos.sc
 EndChar
 
@@ -16815,7 +16448,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" beta.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" beta.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" beta.sc
 EndChar
 
@@ -16862,7 +16494,6 @@ SplineSet
  100 100 l 1
 EndSplineSet
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" epsilon.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" epsilon.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" epsilon.sc
 EndChar
 
@@ -16911,7 +16542,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" omega.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" omega.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" omega.sc
 EndChar
 
@@ -16944,7 +16574,6 @@ SplineSet
  300 600 l 1x11
 EndSplineSet
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" eta.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" eta.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" eta.sc
 EndChar
 
@@ -16991,7 +16620,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" alpha.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" alpha.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" alpha.sc
 EndChar
 
@@ -17043,7 +16671,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" zeta.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" zeta.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" zeta.sc
 EndChar
 
@@ -17081,7 +16708,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" theta.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" theta.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" theta.sc
 EndChar
 
@@ -17098,7 +16724,6 @@ Refer: 493 900 N 1 0 0 1 100 100 2
 Refer: 505 945 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" alphatonos.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" alphatonos.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" alphatonos.sc
 EndChar
 
@@ -17114,7 +16739,6 @@ Fore
 Refer: 493 900 S 1 0 0 1 100 100 2
 Refer: 502 949 N 1 0 0 1 0 0 2
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" epsilontonos.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" epsilontonos.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" epsilontonos.sc
 EndChar
 
@@ -17130,7 +16754,6 @@ Fore
 Refer: 493 900 S 1 0 0 1 200 100 2
 Refer: 504 951 N 1 0 0 1 0 0 2
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" etatonos.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" etatonos.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" etatonos.sc
 EndChar
 
@@ -17168,7 +16791,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" upsilon.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" upsilon.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" upsilon.sc
 EndChar
 
@@ -17214,7 +16836,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" lambda.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" lambda.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" lambda.sc
 EndChar
 
@@ -17264,7 +16885,6 @@ SplineSet
  225 300 l 1
 EndSplineSet
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" sigma.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" sigma.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" sigma.sc
 EndChar
 
@@ -17312,7 +16932,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" phi.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" phi.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" phi.sc
 EndChar
 
@@ -17356,7 +16975,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" psi.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" psi.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" psi.sc
 EndChar
 
@@ -17399,7 +17017,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" nu.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" nu.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" nu.sc
 EndChar
 
@@ -17474,7 +17091,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" xi.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" xi.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" xi.sc
 EndChar
 
@@ -17522,7 +17138,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" kappa.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" kappa.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" kappa.sc
 EndChar
 
@@ -17574,7 +17189,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" delta.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" delta.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" delta.sc
 EndChar
 
@@ -17590,7 +17204,6 @@ Fore
 Refer: 111 168 S 1 0 0 1 -75 100 2
 Refer: 522 953 N 1 0 0 1 0 0 2
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" iotadieresis.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" iotadieresis.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" iotadieresis.sc
 EndChar
 
@@ -17617,7 +17230,6 @@ SplineSet
  225 200 l 1xb4
 EndSplineSet
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" iota.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" iota.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" iota.sc
 EndChar
 
@@ -17633,7 +17245,6 @@ Fore
 Refer: 493 900 S 1 0 0 1 25 100 2
 Refer: 522 953 N 1 0 0 1 0 0 2
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" iotatonos.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" iotatonos.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" iotatonos.sc
 EndChar
 
@@ -17650,7 +17261,6 @@ Refer: 493 900 S 1 0 0 1 100 100 2
 Refer: 488 959 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" omicrontonos.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" omicrontonos.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" omicrontonos.sc
 EndChar
 
@@ -17667,7 +17277,6 @@ Refer: 493 900 S 1 0 0 1 200 100 2
 Refer: 511 965 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" upsilontonos.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" upsilontonos.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" upsilontonos.sc
 EndChar
 
@@ -17684,7 +17293,6 @@ Refer: 493 900 S 1 0 0 1 300 100 2
 Refer: 503 969 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" omegatonos.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" omegatonos.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" omegatonos.sc
 EndChar
 
@@ -17701,7 +17309,6 @@ Refer: 111 168 S 1 0 0 1 100 100 2
 Refer: 511 965 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" upsilondieresis.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" upsilondieresis.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" upsilondieresis.sc
 EndChar
 
@@ -17717,7 +17324,6 @@ Fore
 Refer: 529 901 S 1 0 0 1 0 100 2
 Refer: 522 953 N 1 0 0 1 100 0 2
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" iotadieresistonos.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" iotadieresistonos.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" iotadieresistonos.sc
 EndChar
 
@@ -17761,7 +17367,6 @@ Refer: 529 901 S 1 0 0 1 100 100 2
 Refer: 511 965 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" upsilondieresistonos.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" upsilondieresistonos.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" upsilondieresistonos.sc
 EndChar
 
@@ -17859,7 +17464,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" f_i.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" f_i.sc
 Ligature2: "'liga' Standard Ligatures lookup 6 subtable" f i
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" f_i.sc
 EndChar
@@ -17903,7 +17507,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" f_l.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" f_l.sc
 Ligature2: "'liga' Standard Ligatures lookup 6 subtable" f l
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" f_l.sc
 EndChar
@@ -18437,7 +18040,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" gamma.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" gamma.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" gamma.sc
 EndChar
 
@@ -18505,7 +18107,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" chi.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" chi.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" chi.sc
 EndChar
 
@@ -18536,7 +18137,6 @@ Refer: 92 96 N 1 0 0 1 200 300 2
 Refer: 450 1048 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" icyrlgrave.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" icyrlgrave.sc
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" icyrlgrave.sc
 EndChar
 
@@ -18553,7 +18153,6 @@ Refer: 92 96 S 1 0 0 1 200 100 2
 Refer: 453 1080 N 1 0 0 1 0 0 2
 Validated: 5
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" icyrlgrave.sc
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" icyrlgrave.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 3 subtable" icyrlgrave.sc
 EndChar
 
@@ -19064,7 +18663,7 @@ SplineSet
  50 -100 l 1x68
  150 -100 l 1x70
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" j.scalt
+AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" j.scalt
 Substitution2: "Single Substitution lookup 1 subtable" j.scalt
 EndChar
 
@@ -19381,6 +18980,7 @@ SplineSet
  200 200 l 1x1080
  200 100 l 1x2080
 EndSplineSet
+Substitution2: "'swsh' Swash lookup 12-1" q.scswash
 EndChar
 
 StartChar: r.sc
@@ -21362,7 +20962,7 @@ SplineSet
  200 900 l 1x31
 EndSplineSet
 Refer: 559 57370 S 1 0 0 1 0 0 2
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" jcircumflex.scalt
+AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" jcircumflex.scalt
 Substitution2: "Single Substitution lookup 1 subtable" jcircumflex.scalt
 EndChar
 
@@ -24198,7 +23798,7 @@ SplineSet
  100 -100 l 1x68
  200 -100 l 1x70
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" jecyrl.scalt
+AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" jecyrl.scalt
 Substitution2: "Single Substitution lookup 1 subtable" jecyrl.scalt
 EndChar
 
@@ -26192,7 +25792,6 @@ SplineSet
  100 800 l 5x6c
 EndSplineSet
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" j.scalt
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" j.scalt
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" j.scalt
 EndChar
 
@@ -26225,7 +25824,6 @@ SplineSet
 EndSplineSet
 Refer: 34 94 S 1 0 0 1 100 300 2
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" jcircumflex.scalt
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" jcircumflex.scalt
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" jcircumflex.scalt
 EndChar
 
@@ -26256,7 +25854,6 @@ SplineSet
  100 800 l 1x6c
 EndSplineSet
 AlternateSubs2: "'aalt' Access All Alternates lookup 11 subtable" jecyrl.scalt
-AlternateSubs2: "'aalt' Access All Alternates lookup 12 subtable" jecyrl.scalt
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 4 subtable" jecyrl.scalt
 EndChar
 
